@@ -60,6 +60,7 @@ This figure illustrates how **Noise Margin** is derived from the **Voltage Trans
 This figure summarizes how **Noise Margins** help handle noisy "bumps" on signals — ensuring correct logic detection.
 
 <img width="1920" height="1080" alt="Screenshot (200)" src="https://github.com/user-attachments/assets/9b827df1-920a-4d1c-baeb-987ed7a8a266" />
+<img width="1920" height="1080" alt="Screenshot (201)" src="https://github.com/user-attachments/assets/29acdf6e-e333-4a09-9802-f1131610366e" />
 
 
 ✅ **Input thresholds**:
@@ -71,6 +72,11 @@ This figure summarizes how **Noise Margins** help handle noisy "bumps" on signal
 
 - `VOL`: Output voltage near 0V — treated as **logic '0'** for next gate input
 - `VOH`: Output voltage near Vdd — treated as **logic '1'** for next gate input
+
+<img width="1920" height="1080" alt="Screenshot (202)" src="https://github.com/user-attachments/assets/3c0867e6-0e5c-4d72-b0fd-a49995ceb7ff" />
+
+<img width="1920" height="1080" alt="Screenshot (203)" src="https://github.com/user-attachments/assets/59e1855a-25c9-4dfa-9bcd-46aa663cd823" />
+
 
 ✅ **Noise bump scenarios**:
 
@@ -154,3 +160,4 @@ In the interactive **ngspice VTC plot**, you can manually extract values for Noi
 
 ✅ **Noise Margin Low (NML)**:  
 `NML = VIL − VOL = x0 − y1`
+
