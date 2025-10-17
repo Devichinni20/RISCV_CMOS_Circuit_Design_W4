@@ -2,7 +2,7 @@
 ## CMOS Circuit Design 
 ## 📑 Table of Contents
 
-1. [CMOS Circuit Design and SPICE Simulations](#cmos-circuit-design-and-spice-simulations)
+1. CMOS Circuit Design and SPICE Simulations(#cmos-circuit-design-and-spice-simulations)
    - [Overview](#-overview)
    - [SPICE Simulations in Electronic Circuit Design](#-spice-simulations-in-electronic-circuit-design)
    - [Why Use SPICE Simulations?](#-why-use-spice-simulations)
@@ -12,7 +12,7 @@
    - [Operation Summary](#-operation-summary)
    - [SPICE Simulation Results](#-spice-simulation-results)
 
-2. [NMOS Transistor Operation and Characteristics](#️-nmos-transistor-operation-and-characteristics)
+2. NMOS Transistor Operation and Characteristics(#️-nmos-transistor-operation-and-characteristics)
    - [Introduction to NMOS in Circuit Design](#-1-introduction-to-nmos-in-circuit-design)
    - [Body Effect (Substrate Bias Effect)](#-2-body-effect-substrate-bias-effect)
    - [Resistive (Linear) Region of Operation](#-3-resistive-linear-region-of-operation)
@@ -21,7 +21,7 @@
    - [Pinch-Off Condition](#-6-pinch-off-condition)
    - [Saturation Region of Operation](#-7-saturation-region-of-operation)
 
-3. [Basic SPICE Setup](#basic-spice-setup)
+3. Basic SPICE Setup(#basic-spice-setup)
    - [Circuit Description in SPICE Syntax](#circuit-description-in-spice-syntax)
    - [SPICE Lab with Sky130 Models](#spice-lab-with-sky130-models)
    - [SPICE Simulation Example: day1_nfet_idvds_L2_W5.spice](#day1_nfet_idvds_l2_w5spice)
@@ -330,4 +330,5 @@ plot -vdd#branch
 <img width="1920" height="923" alt="VirtualBox_opensource_tool_ubuntu_14_10_2025_13_52_55" src="https://github.com/user-attachments/assets/08361e11-e706-4ecc-a7d2-c07cf60da4be" />
 
 **Id vs Vds for different Vgs - sky130 NMOS (W=5um, L=2um)**
+
 
