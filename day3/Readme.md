@@ -110,7 +110,7 @@ Below image shows the Voltage Transfer Characteristics (VTC) of a CMOS Inverter:
 <img width="1920" height="965" alt="VirtualBox_opensource_tool_ubuntu_17_10_2025_02_52_26" src="https://github.com/user-attachments/assets/641a10b4-226f-463f-be77-8987f6653da6" />
 
 
-"day3_inv_tran_Wp084_Wn036.spice"
+### day3_inv_tran_Wp084_Wn036.spice
 
 ```
 *Model Description
@@ -258,4 +258,5 @@ If the **rise delay** and **fall delay** of the clock buffer are well-matched, n
 However, if they are imbalanced due to PMOS/NMOS `Ron mismatch`, **duty cycle correction** circuits are used in the clock tree to maintain a 50% duty cycle.
 
 <img width="803" height="447" alt="image" src="https://github.com/user-attachments/assets/93f8bc1d-ab2a-45f6-a229-58eed502c14a" />
+
 
